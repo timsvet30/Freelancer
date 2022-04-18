@@ -1,0 +1,285 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	font-size: 40px;
+	line-height: 55px;
+	color: #001E64;
+}
+.container{
+	max-width: 1200px;
+	margin: 0 auto;
+
+}
+.header__content{
+	display: flex;
+}
+.background{
+	background-color: #ffe270;
+	position: absolute;
+	width: 370px;
+	height: 320px;
+	top: 0px;
+	right: 70px;
+	background-image: url(images/bg1.png);
+	background-repeat: no-repeat;
+	background-size: 370px 320px;
+}
+.title{
+	padding-top: 50px;
+}
+.name{
+	padding-left: 50px;
+	color: #FFC700;
+	font-weight: 700;
+}
+.portfolio{
+	padding-top: 50px;
+	padding-left: 200px;
+	padding-bottom: 5px;
+}
+.info{
+	padding-left: 20px;
+}
+.photo{
+
+	z-index: 10;
+	height: 280px;
+	margin-left: 120px;
+	margin-top: 20px;
+}
+.inner{
+	display: flex;
+}
+
+.main__content{
+	min-height: 300px;
+	width: 830px;
+	background-color: #ffe270;
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+	grid-gap: 10px;
+}
+.content__item{
+	text-align: center;
+}
+.content__item p{
+	font-size: 20px;
+	line-height: 0px;
+}
+.content__item p:hover{
+	color: #001E64;
+}
+.content__item a:hover{
+	color: #001E64;
+}
+.main__contacts p{
+	font-size: 20px;
+	line-height: 30px;
+}
+
+.text{
+	margin-top: 0;
+	margin-left: 10px;
+	margin-bottom: 0;
+}
+.skype-info{
+	display: block;
+	margin-bottom: 10px;
+	margin-left: 20px;
+}
+.viber-info{
+	margin-left: 20px;
+}
+.skype{
+    margin-top: -10px;
+	/*margin-top: 10px;*/
+	margin-left: 10px;
+}
+.viber{
+	margin-left: 20px;
+}
+.skype-img{
+	width: 50px;
+}
+.viber-img{
+	width: 50px;
+}
+.telegram-img{
+	width: 50px;
+}
+.whatsapp-img{
+	width: 50px;
+}
+.group{
+
+}
+.ready{
+	width: 110px;
+}
+.pizza{
+	width: 106px;
+}
+.seafood{
+	width: 135px;
+}
+.desire{
+	width: 97px;
+}
+.minto{
+	width: 100px;
+	margin-top: 34px;
+}
+.haus{
+	width: 110px;
+}
+.traveland{
+	width: 110px;
+}
+.lingling{
+	width: 63px;
+}
+
+@media (max-width: 1300px){
+	.skype-info{
+		display: block;
+	    margin-bottom: 15px;
+     	margin-top: 60px;
+	}
+
+	.skype{
+		margin-top: -10px;
+	}
+	.background{
+		display: none;
+	}
+	.content__item{
+		/*width: 150px;*/
+	}
+	.main__content{
+		display: grid;
+		grid-template-columns: repeat(5, 1fr);
+		grid-gap: 10px;
+	}
+	.portfolio{
+		padding-left: 100px;
+	}
+}
+@media (max-width: 1040px){
+	.minto{
+		width: 120px;
+	}
+	.main__content{
+		grid-template-columns: repeat(3, 1fr);
+	}
+	.photo{
+		height: 250px;
+		margin-left: 50px;
+	}
+	.title{
+		font-size: 35px;
+		line-height: 35px;
+	}
+	.portfolio{
+		font-size: 35px;
+		line-height: 35px;
+		padding-top: 70px;
+		padding-left: 80px;
+	}
+}
+@media (max-width: 860px){
+	.portfolio{
+		padding-top: 50px;
+	}
+	.photo{
+		height: 230px;
+		margin-left: 10px;
+	}
+}
+@media (max-width: 755px){
+	.freelancer{
+		padding-left: 50px;
+		color: #FFC700;
+		font-weight: 700;
+	}
+	.portfolio{
+		padding-top: 40px;
+
+	}
+}
+@media (max-width: 700px){
+	.portfolio{
+		font-size: 30px;
+		padding-top: 50px;
+		padding-left: 30px;
+	}
+	.content__item{
+		width: 120px;
+	}
+}
+@media (max-width: 600px){
+	.skype-info{
+		display: block;
+	}
+	.skype{
+		margin-top: -10px;
+	}
+	.content__item{
+		width: 140px;
+	}
+	.main__content{
+		grid-template-columns: repeat(2, 1fr);
+	}
+	.portfolio{
+		font-size: 27px;
+		padding-top: 40px;
+		padding-left: 20px;
+	}
+	.photo{
+		height: 200px;
+		margin-left: 0px;
+	}
+	.title{
+		font-size: 30px;
+		line-height: 35px;
+	}
+	.skype-img{
+		width: 100%;
+		width: 30px;
+	}
+	.viber-img{
+		width: 30px;
+	}
+	.telegram-img{
+		width: 30px;
+	}
+	.whatsapp-img{
+		width: 30px;
+	}
+	.text{
+		margin-bottom: 50px;
+	}
+	.skype-info{
+		margin-bottom: 20px;
+	}
+	.viber {
+		margin-left: 5px;
+	}
+}
+@media (max-width: 500px){
+	.content__item{
+		width: 120px;
+	}
+}
+@media (max-width: 480px){
+	body{
+		min-width: 320px;
+	}
+	.text {
+		margin-bottom: 10px;
+	}
+	.portfolio{
+		font-size: 23px;
+		padding-top: 40px;
+		padding-left: 5px;
+	}
+}
